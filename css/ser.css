@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600&display=swap');
+
+*{
+   font-family: 'Poppins', sans-serif;
+   margin:0; padding:0;
+   box-sizing: border-box;
+   outline: none; border:none;
+   text-decoration: none;
+}
+
+
+
+
+.form-container .content{
+   text-align: center;
+}
+
+.container .content h3{
+    margin-left: 30PX;
+   font-size: 30px;
+   color:#333;
+}
+
+.container .content h3 span{
+   background: rgb(57, 201, 83);
+   color:rgb(0, 0, 0);
+   border-radius: 5px;
+   padding:0 15px;
+}
+
+.container .content h1{
+   font-size: 50px;
+   color:#333;
+}
+
+.container .content h1 span{
+   color:rgb(57, 201, 83);
+}
+
+
+
+.container .content .btn{
+   display: inline-block;
+   padding:10px 30px;
+   font-size: 20px;
+   background: #333;
+   color:#fff;
+   margin:0 5px;
+   text-transform: capitalize;
+}
+
+.container .content .btn:hover{
+   background: rgb(57, 201, 83);
+}
+
+
+.form-container form h3{
+   font-size: 30px;
+   text-transform: uppercase;
+   margin-bottom: 10px;
+   color:#333;
+}
+
+.form-container form input,
+.form-container form select{
+   width: 23%;
+   padding:10px 15px;
+   font-size: 17px;
+   margin:9px 0;
+   margin-left: 30PX;
+   background: #eee;
+   border-radius: 5px;
+}
+
+
+.form-container form .form-btn{
+   background: rgba(57, 201, 83, 0.317);
+   color:rgb(0, 7, 1);
+   text-transform: capitalize;
+   font-size: 20px;
+   cursor: pointer;
+}
+
+.form-container form .form-btn:hover{
+   background: rgb(59, 172, 116);
+   color:#fff;
+}
+
+
+.form-container form .error-msg{
+   margin:10px 0;
+   display: block;
+   background:rgb(57, 201, 83);
+   color:#fff;
+   border-radius: 5px;
+   font-size: 20px;
+   padding:10px;
+}
+
+.form-container .edit{
+    margin-left: 50px;
+   margin-bottom: 100px;
+}
+.form-container .edit input{
+    width:58%;
+}

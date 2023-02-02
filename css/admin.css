@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    color: white;
+    font-family:  Tahoma;
+    list-style: none;
+}
+ 
+
+.sidenav{
+    line-height: 60px;
+    width: 22%;
+    height: 100vh;
+    background-color: rgba(7, 100, 77, 0.884);
+   
+}
+.h1{
+   
+    font-weight: bolder;
+    font-size: 20px;
+    padding:40px  40px 20px 50px;
+   
+}
+
+ .sidenav ul li{
+    margin-left: 38px;
+    line-height: 70px;
+}
+.sidenav .ul1 li{
+    width: 85%;
+    border: 3px solid white;
+    border-right: none;
+    border-top: none;
+    border-left: none;
+    transition: 0.7s;
+    
+}
+
+.sidenav .ul1 li:hover{
+    border-radius: 50px 30px 20px 35px;
+    background-color: rgba(7, 100, 77, 0.884);
+}
